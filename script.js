@@ -13,7 +13,7 @@ var typed = new Typed('#animate', {
 
 // Skills Section Manipulation
 
-let skills = document.querySelector('.skills-pictures')
+let skills = document.querySelector('.skills-pictures');
 
 let pictureArray = ['https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white',
     'https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E',
@@ -23,14 +23,13 @@ let pictureArray = ['https://img.shields.io/badge/Python-14354C?style=for-the-ba
     'https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white'
 ]
 
-function name(pictureArray) {
-    for (picture of pictureArray) {
-        let picDiv = document.createElement('div');
-        picDiv.className = "py-2 py-sm-4 col-md-4 col-12";
-        let picImg = document.createElement('img');
-        picImg.setAttribute('href', picture);
-        picDiv.appendChild(picImg);
-    }
+for (picture of pictureArray) {
+    let picDiv = document.createElement('div');
+    picDiv.className = "py-2 py-sm-4 col-md-4 col-12";
+    let picImg = document.createElement('img');
+    picImg.setAttribute('href', picture);
+    picDiv.appendChild(picImg);
+    skills.appendChild(picDiv);
 }
 
 // End
