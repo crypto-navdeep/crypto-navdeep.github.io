@@ -27,7 +27,7 @@ for (picture of pictureArray) {
     let picDiv = document.createElement('div');
     picDiv.className = "py-2 py-sm-4 col-md-4 col-12";
     let picImg = document.createElement('img');
-    picImg.setAttribute('href', picture);
+    picImg.setAttribute('src', picture);
     picDiv.appendChild(picImg);
     skills.appendChild(picDiv);
 }
