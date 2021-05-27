@@ -74,6 +74,10 @@
     text-align: left !important;
 }
 
+.card-body {
+    background-color: white !important;
+}
+
 
 /* About End */
 
