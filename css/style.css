@@ -65,15 +65,6 @@
 
 /* About */
 
-.about-img img {
-    min-width: 30px;
-    height: auto;
-}
-
-#about-content {
-    text-align: left !important;
-}
-
 
 /* About End */
 
@@ -89,6 +80,20 @@ footer {
 
 
 /* Footer End */
+
+
+/* Utilities */
+
+.text-left {
+    text-align: left;
+}
+
+text-right {
+    text-align: right;
+}
+
+
+/* Utilities */
 
 
 /* Custom Edits*/
